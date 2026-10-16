@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://VOTRE-DOMAINE.fr/sitemap.xml
+Sitemap: https://almae-bien-etre.fr/sitemap.xml
