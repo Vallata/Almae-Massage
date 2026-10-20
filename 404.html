@@ -3,4 +3,5 @@ var p=location.pathname, base=location.hostname.endsWith("github.io")?"/"+(p.spl
 var R={"madero-sculpte.html":"maderotherapie-clamart/","draino-sculpt.html":"drainage-lymphatique-clamart/","massage-par-zone.html":"massage-par-zone-clamart/"};
 var last=p.split("/").pop();
 location.replace(base.replace("//","/")+(R[last]||"")+location.hash);
-</script></head><body><a href="./">Retour à l'accueil</a></body></html>
+</script><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png"><script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href');if(/^(https?:|tel:|mailto:|#)/.test(h)||/(github\.io|almae-bien-etre\.fr)$/.test(location.hostname))return;if(/\/$/.test(a.href)||h==='./'||h==='../'){e.preventDefault();e.stopPropagation();location.href=a.href.replace(/\/?$/,'/')+'index.html';}},true);</script>
+</head><body><a href="./">Retour à l'accueil</a></body></html>
